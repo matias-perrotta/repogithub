@@ -273,34 +273,38 @@ div{
     display: inline-block;
 }
 
-.resolucion{
-    width: 99%;
+
+.imagendeinicio{
+    display: block;
+    margin: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-@media (max-width: 767px){
-    .desktop{
-        display: none;
+.product-image {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+@media  (max-width: 767px){
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+        
     }
 
-    .tablet{
-        display: none;
+    .product-image{
+
+    }
+
+    nav ul li{
+        padding-bottom: 20px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 990px) {
-    .desktop{
-        display: none;
-    }
-    .movil{
-        display: none;
-    }
-}
 
-@media (min-width: 991px) {
-    .tablet{
-        display: none;
-    }
-    .movil{
-        display: none;
-    }
-}
+
+
+
+    
